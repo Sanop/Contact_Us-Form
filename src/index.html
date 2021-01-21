@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <title>Contact Us</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <style>
         .bg-dark {
             background-color: #1b1274!important;
+        }
+
+        .fab{
+            font-size: 40px;
+            margin-left: 15px;
+        }
+
+        .fa-facebook-square:hover{
+            cursor: pointer;
+            color: #3b5998;
+        }
+
+        .fa-youtube-square:hover{
+            cursor: pointer;
+            color: #FF0000;
+        }
+
+        .fa-instagram-square:hover{
+            cursor: pointer;
+            color: #C13584;
+        }
+
+        .fa-whatsapp-square:hover{
+            cursor: pointer;
+            color: #009432;
+        }
+
+
+        a{
+            color: inherit;
+        }
+
+        hr{
+            margin: 20px;
+        }
+
+
+        h4{
+          color: #e52b2b;
         }
     </style>
 </head>
@@ -14,16 +54,43 @@
 <div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://testmesanoj.blogspot.com/">Home</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <h2>
-                Contact Us
-            </h2>
+            <a class="navbar-brand" href="https://testmesanoj.blogspot.com/">Back To Home</a>
         </div>
     </nav>
+    <br>
+    <br>
+    <center>
+        <h2>Write To Us</h2>
+        <br>
+        <h5>we would love to hear what you have to say</h5>
+        <br>
+        <h6>
+            If you want to know more about our services or contact our writers. Please feel free to contact us.
+        </h6>
+        <br>
+        <h2>-Hotline-</h2>
+        <h4>+94 713 895 655</h4>
+        <br>
+        <h2>-E mail-</h2>
+        <h4>wetreatyouasafriend@gmail.com</h4>
+    </center>
+    <br>
+    <br>
+    <hr>
+    <center>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
+        <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+        <i class="fab fa-whatsapp-square" onclick="myAlert()"></i>
+    </center>
+    <script type="text/javascript">
+        function myAlert(){
+            swal("Text us On ", "071-3895655");
+        }
 
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/8b03f36100.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </div>
 </body>

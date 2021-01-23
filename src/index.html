@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Us</title>
-    <link rel="shortcut icon" type="image/jpg" href="android-chrome-512x512.png"/>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <style>
@@ -21,9 +21,9 @@
             color: #3b5998;
         }
 
-        .fa-youtube-square:hover{
+        .fa-twitter-square:hover{
             cursor: pointer;
-            color: #FF0000;
+            color: #00acee;
         }
 
         .fa-instagram-square:hover{
@@ -50,6 +50,33 @@
           color: #e52b2b;
         }
 
+        #img-log{
+            width: 300px;
+            position: relative;
+            top: -40px;
+            margin-bottom: -20px;
+        }
+
+
+        @media only screen and (max-width: 425px){
+           .font1{
+               font-size: 30px;
+           }
+
+            .font2{
+                font-size: 20px;
+            }
+
+            .font3{
+                font-size: 40px;
+                 margin-top: 20px;
+            }
+
+            .font4{
+                font-size: 30px;
+                margin-top: 15px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -61,29 +88,30 @@
     </nav>
     <br>
     <br>
-    <center>
-        <h2>Write To Us</h2>
+    <center class="wrapper">
+        <img id="img-log" src="logo.png" alt="logo.png">
         <br>
-        <h5>we would love to hear what you have to say</h5>
+        <h5 class="font1">we would love to hear what you have to say</h5>
         <br>
-        <h6>
+        <h6 class="font2">
             If you want to know more about our services or contact our writers. Please feel free to contact us.
         </h6>
         <br>
-        <h2>-Hotline-</h2>
-        <h4>+94 713 895 655</h4>
+        <h2 class="font3">-Hotline-</h2>
+        <h4 class="font4">+94 713 895 655</h4>
         <br>
-        <h2>-E mail-</h2>
-        <h4>wetreatyouasafriend@gmail.com</h4>
+        <h2 class="font3">-E mail-</h2>
+        <h4 class="font4">wetreatyouasafriend@gmail.com</h4>
     </center>
     <br>
     <br>
     <hr>
     <center>
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
-        <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
-        <i class="fab fa-whatsapp-square" onclick="myAlert()"></i>
+        <a href="https://www.facebook.com/We-Write-103270491770272"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://twitter.com/WeWrite13"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/wewritedreams/?hl=en"><i class="fab fa-instagram-square"></i></a>
+        <i class="fab fa-whatsapp-square" onclick="myAlert()"></i><br>
+        <small>- Writer devops -</small>
     </center>
     <script type="text/javascript">
         function myAlert(){
